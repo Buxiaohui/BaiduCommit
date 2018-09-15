@@ -13,11 +13,12 @@ import static org.apache.commons.lang.StringUtils.isBlank;
  */
 public class BaiduCommitDialog extends DialogWrapper {
 
-    private final BaiduCommitPanel panel;
+    private final BaiduMapCommitPanel panel;
 
     BaiduCommitDialog(@Nullable Project project) {
         super(project);
-        panel = new BaiduCommitPanel(this);
+        panel = new BaiduMapCommitPanel();
+        panel.init();
         setTitle("Commit");
         setOKButtonText("OK");
         init();
@@ -30,7 +31,7 @@ public class BaiduCommitDialog extends DialogWrapper {
     }
 
     String getCommitMessage() {
-        return String.format("%s(%s): %s%s%s%s%s%s",
+        return String.format("%s%s%s%s%s%s%s",
                 getBranch(),
                 getType(),
                 getIds(),
@@ -40,39 +41,39 @@ public class BaiduCommitDialog extends DialogWrapper {
                 getQaNames());
     }
 
-    private String getType() {
-        if (isBlank(panel.getType())) {
-            return "";
-        }
-        return String.format("%n%n%s", "[" + panel.getType() + "]");
-    }
-
     private String getBranch() {
         if (isBlank(panel.getBranchName())) {
             return "";
         }
-        return String.format("%n%n%s", "[" + panel.getBranchName() + "]");
+        return String.format("%s", "[" + panel.getBranchName() + "]");
+    }
+
+    private String getType() {
+        if (isBlank(panel.getType())) {
+            return "";
+        }
+        return String.format("%s", "[" + panel.getType() + "]");
     }
 
     private String getIds() {
         if (isBlank(panel.getIcafeIds())) {
             return "";
         }
-        return String.format("%n%n%s", "[" + panel.getIcafeIds() + "]");
+        return String.format("%s", "[" + panel.getIcafeIds() + "]");
     }
 
     private String getSubject() {
         if (isBlank(panel.getSubject())) {
             return "";
         }
-        return String.format("%n%n%s", panel.getSubject());
+        return String.format("%s", panel.getSubject());
     }
 
     private String getReason() {
         if (isBlank(panel.getReason())) {
             return "";
         }
-        return String.format("%n%n%s:", "Reason:" + panel.getReason());
+        return String.format("%n%n%s", "Reason:" + panel.getReason());
     }
 
     private String getChangeDetail() {

@@ -6,7 +6,7 @@ import javax.swing.*;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
-public class BaiduCommitPanel {
+public class BaiduMapCommitPanel {
     private JPanel main_panel;
     private JLabel branch_name;
     private JLabel type;
@@ -25,10 +25,15 @@ public class BaiduCommitPanel {
     private JComboBox type_combo_box;
     private JComboBox qa_name_combo_box;
     private static final String[] qaNmaes = {
-            "suchaojia"
-            , "wuzewu"
-            , "xuwanran"
-            , "xielijuan"
+            "none",
+            "suchaojia",
+            "wuzewu",
+            "xielijuan",
+            "xuwanran",
+            "wangli",
+            "zhangdaike",
+            "jiakang"
+
     };
 
     public JPanel getMainPanel() {
@@ -39,8 +44,7 @@ public class BaiduCommitPanel {
         BaiduChangeType type = (BaiduChangeType) type_combo_box.getSelectedItem();
         return type.label();
     }
-
-    BaiduCommitPanel(DialogWrapper dialog) {
+    public void init(){
         for (BaiduChangeType type : BaiduChangeType.values()) {
             type_combo_box.addItem(type);
         }
@@ -67,6 +71,10 @@ public class BaiduCommitPanel {
                 }
             }
         });
+    }
+
+    BaiduMapCommitPanel() {
+        super();
     }
 
     public String getBranchName() {

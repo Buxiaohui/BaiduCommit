@@ -23,7 +23,8 @@ public class BaiduCreateCommitAction extends AnAction implements DumbAware {
         BaiduCommitDialog dialog = new BaiduCommitDialog(actionEvent.getProject());
         dialog.show();
         if (dialog.getExitCode() == DialogWrapper.OK_EXIT_CODE) {
-            commitPanel.setCommitMessage(dialog.getCommitMessage());
+            String msg = dialog.getCommitMessage();
+            commitPanel.setCommitMessage(msg);
         }
     }
 

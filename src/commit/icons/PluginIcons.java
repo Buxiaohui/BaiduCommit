@@ -8,5 +8,5 @@ import javax.swing.*;
  * @author Damien Arrachequesne
  */
 public interface PluginIcons {
-    Icon LOAD = IconLoader.getIcon("/icons/load.png");
+    Icon LOAD = IconLoader.getIcon("/icons/icon.ipg");
 }

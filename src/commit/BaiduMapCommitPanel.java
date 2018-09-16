@@ -1,6 +1,7 @@
 package commit;
 
-import com.intellij.openapi.ui.DialogWrapper;
+import com.intellij.openapi.project.Project;
+import com.intellij.openapi.vcs.ui.CommitMessage;
 
 import javax.swing.*;
 import java.awt.event.ItemEvent;
@@ -24,6 +25,8 @@ public class BaiduMapCommitPanel {
     private JTextField qa_names_filed;
     private JComboBox type_combo_box;
     private JComboBox qa_name_combo_box;
+    private JLabel regression;
+    private JTextField regression_text_filed;
     private static final String[] qaNmaes = {
             "none",
             "suchaojia",
@@ -44,7 +47,8 @@ public class BaiduMapCommitPanel {
         BaiduChangeType type = (BaiduChangeType) type_combo_box.getSelectedItem();
         return type.label();
     }
-    public void init(){
+
+    public void init(Project project) {
         for (BaiduChangeType type : BaiduChangeType.values()) {
             type_combo_box.addItem(type);
         }
@@ -71,6 +75,11 @@ public class BaiduMapCommitPanel {
                 }
             }
         });
+
+        String currentBranch = BnavCommitMessage.extractBranchName(project);
+        if (currentBranch != null) {
+            branch_name_filed.setText(currentBranch);
+        }
     }
 
     BaiduMapCommitPanel() {
@@ -85,12 +94,12 @@ public class BaiduMapCommitPanel {
         return type_filed.getText();
     }
 
-    public String getSubject() {
-        return subject_filed.getText();
-    }
-
     public String getIcafeIds() {
         return icafe_ids_filed.getText();
+    }
+
+    public String getSubject() {
+        return subject_filed.getText();
     }
 
     public String getReason() {
@@ -98,6 +107,10 @@ public class BaiduMapCommitPanel {
     }
 
     public String getChangeDetail() {
+        return change_detail_filed.getText();
+    }
+
+    public String getRegression() {
         return change_detail_filed.getText();
     }
 

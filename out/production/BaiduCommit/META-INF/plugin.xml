@@ -32,9 +32,8 @@
     <action id="Commit.Button" class="commit.BaiduCreateCommitAction"
             text="Create commit message"
             description="Create commit message"
-            icon="/icons/load.png">
+            icon="/icons/icon.jpg">
       <add-to-group group-id="Vcs.MessageActionGroup" anchor="first"/>
     </action>
   </actions>
-
 </idea-plugin>

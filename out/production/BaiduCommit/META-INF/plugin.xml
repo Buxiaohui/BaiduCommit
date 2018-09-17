@@ -1,39 +1,38 @@
 <idea-plugin>
-  <id>com.baidu.bnav.android.com</id>
-  <name>BaiduNavCommit</name>
-  <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <id>com.baidu.bnav.android.com</id>
+    <name>BaiduNavCommit</name>
+    <version>1.0</version>
+    <vendor email="moyinghui@yeah.net" url="https://github.com/Buxiaohui/BaiduCommit">MyGitHub</vendor>
 
-  <description><![CDATA[
-      just for baidu nav android team.<br>
-      <em>most HTML tags may be used</em>
+    <description><![CDATA[
+      just for baidu nav android team.
     ]]></description>
 
-  <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+    <change-notes><![CDATA[
+      get current branch name,and fill into text filed.
     ]]>
-  </change-notes>
+    </change-notes>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="173.0"/>
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="170.0"/>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-       on how to target different products -->
-  <!-- uncomment to enable plugin in all products
-  <depends>com.intellij.modules.lang</depends>
-  -->
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+    <depends>Git4Idea</depends>
+    <depends>hg4idea</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
 
-  <extensions defaultExtensionNs="com.intellij">
-    <!-- Add your extensions here -->
-  </extensions>
-
-  <actions>
-    <action id="Commit.Button" class="commit.BaiduCreateCommitAction"
-            text="Create commit message"
-            description="Create commit message for baidu navigation ,android team"
-            icon="/icons/icon.jpg">
-      <add-to-group group-id="Vcs.MessageActionGroup" anchor="first"/>
-    </action>
-  </actions>
+    <actions>
+        <action id="Commit.Button" class="commit.BaiduCreateCommitAction"
+                text="Create commit message"
+                description="Create commit message for baidu navigation ,android team"
+                icon="/icons/icon.jpg">
+            <add-to-group group-id="Vcs.MessageActionGroup" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>

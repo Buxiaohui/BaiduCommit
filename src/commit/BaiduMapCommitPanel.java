@@ -1,6 +1,7 @@
 package commit;
 
 import com.intellij.openapi.project.Project;
+import org.apache.http.util.TextUtils;
 
 import javax.swing.*;
 import java.awt.event.ItemEvent;
@@ -26,6 +27,8 @@ public class BaiduMapCommitPanel {
     private JComboBox type_combo_box;
     private JComboBox qa_name_combo_box;
     private JTextField regression_text_filed;
+    private JComboBox remote_branch_combo_box;
+    private JComboBox local_branch_combo_box;
     private static final String[] qaNmaes = {
             "none",
             "suchaojia",
@@ -38,6 +41,14 @@ public class BaiduMapCommitPanel {
 
     };
 
+    public void init(Project project) {
+        initTypeList();
+        initQaList();
+        initLocalBranchList(project);
+        initRemoteBranchList(project);
+        initCurrentBranch(project);
+    }
+
     public JPanel getMainPanel() {
         return main_panel;
     }
@@ -47,7 +58,7 @@ public class BaiduMapCommitPanel {
         return type.label();
     }
 
-    public void init(Project project) {
+    private void initTypeList() {
         for (BaiduChangeType type : BaiduChangeType.values()) {
             type_combo_box.addItem(type);
         }
@@ -60,7 +71,9 @@ public class BaiduMapCommitPanel {
                 }
             }
         });
+    }
 
+    private void initQaList() {
         for (String qaName : qaNmaes) {
             qa_name_combo_box.addItem(qaName);
         }
@@ -75,11 +88,47 @@ public class BaiduMapCommitPanel {
             }
         });
 
-        String currentBranch = BnavCommitMessage.extractBranchName(project);
+    }
+
+    private void initLocalBranchList(Project project) {
+        String[] strings = BnavCommitMessageUtils.getLocalBranchNames(project);
+        for (String qaName : strings) {
+            local_branch_combo_box.addItem(qaName);
+        }
+        local_branch_combo_box.addItemListener(new ItemListener() {
+            @Override
+            public void itemStateChanged(ItemEvent e) {
+                String name = (String) e.getItem();
+                if (!TextUtils.isEmpty(name)) {
+                    branch_name_filed.setText(name);
+                }
+            }
+        });
+    }
+
+    private void initRemoteBranchList(Project project) {
+        String[] strings = BnavCommitMessageUtils.getRemoteBranchName(project);
+        for (String qaName : strings) {
+            remote_branch_combo_box.addItem(qaName);
+        }
+        remote_branch_combo_box.addItemListener(new ItemListener() {
+            @Override
+            public void itemStateChanged(ItemEvent e) {
+                String name = (String) e.getItem();
+                if (!TextUtils.isEmpty(name)) {
+                    branch_name_filed.setText(name);
+                }
+            }
+        });
+    }
+
+    private void initCurrentBranch(Project project) {
+        String currentBranch = BnavCommitMessageUtils.extractBranchName(project);
         if (currentBranch != null) {
             branch_name_filed.setText(currentBranch);
         }
     }
+
 
     BaiduMapCommitPanel() {
         super();
@@ -110,7 +159,7 @@ public class BaiduMapCommitPanel {
     }
 
     public String getRegression() {
-        return change_detail_filed.getText();
+        return regression_text_filed.getText();
     }
 
     public String getQaNames() {

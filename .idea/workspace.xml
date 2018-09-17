@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf8f7477-78eb-47d0-b78c-664075e733ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_github_adedayo_intellij_sdk_git4idea_142_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_github_adedayo_intellij_sdk_hg4idea_142_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiduCommit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduCommit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/git4idea-142.1-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/git4idea-142.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/git4idea-142.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/hg4idea-142.1-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/hg4idea-142.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/hg4idea-142.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BaiduCommit/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaiduCommit/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduCommit.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduCommit.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commit/BnavCommitMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commit/BnavCommitMessageUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,24 +30,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="18" />
-          <entry key="form" value="14" />
+          <entry key="class" value="19" />
+          <entry key="form" value="15" />
           <entry key="gitattributes" value="2" />
           <entry key="gradle" value="1" />
           <entry key="iml" value="6" />
-          <entry key="java" value="51" />
+          <entry key="java" value="52" />
           <entry key="png" value="1" />
           <entry key="xml" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="18" />
-          <entry key="GUI_DESIGNER_FORM" value="14" />
+          <entry key="CLASS" value="19" />
+          <entry key="GUI_DESIGNER_FORM" value="15" />
           <entry key="Groovy" value="1" />
           <entry key="IDEA_MODULE" value="6" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="51" />
+          <entry key="JAVA" value="52" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="46" />
         </counts>
@@ -63,8 +56,8 @@
         <counts>
           <entry key="gradle" value="12" />
           <entry key="iml" value="9" />
-          <entry key="java" value="481" />
-          <entry key="txt" value="58" />
+          <entry key="java" value="1639" />
+          <entry key="txt" value="77" />
           <entry key="xml" value="275" />
         </counts>
       </usages-collector>
@@ -72,8 +65,8 @@
         <counts>
           <entry key="Groovy" value="12" />
           <entry key="IDEA_MODULE" value="9" />
-          <entry key="JAVA" value="481" />
-          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="JAVA" value="1639" />
+          <entry key="PLAIN_TEXT" value="77" />
           <entry key="XML" value="275" />
         </counts>
       </usages-collector>
@@ -93,22 +86,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="195">
+              <caret line="97" column="51" selection-start-line="97" selection-start-column="51" selection-end-line="97" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/commit/BnavCommitMessage.java">
+        <entry file="file://$PROJECT_DIR$/src/commit/BnavCommitMessageUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="387">
+              <caret line="76" column="84" selection-start-line="76" selection-start-column="84" selection-end-line="76" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,7 +109,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/git4idea/lib/git4idea.jar!/git4idea/GitRemoteBranch.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="23" column="52" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -157,6 +168,8 @@
       <find>BaiduCommitPanel</find>
       <find>git4idea.repo.GitRepositoryManager</find>
       <find>issue_ids_filed</find>
+      <find>names</find>
+      <find>regression_text_filed</find>
     </findStrings>
     <replaceStrings>
       <replace>BaiduMapCommitPanel</replace>
@@ -173,13 +186,14 @@
         <option value="$PROJECT_DIR$/src/commit/BaiduCommitPanel.java" />
         <option value="$PROJECT_DIR$/src/commit/BaiduCreateCommitAction.java" />
         <option value="$PROJECT_DIR$/src/commit/BaiduCommitDialog.java" />
-        <option value="$PROJECT_DIR$/src/commit/BnavCommitMessage.java" />
         <option value="$PROJECT_DIR$/src/commit/icons/PluginIcons.java" />
-        <option value="$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java" />
-        <option value="$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.form" />
         <option value="$PROJECT_DIR$/BaiduCommit.iml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/commit/BnavCommitMessage.java" />
+        <option value="$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java" />
+        <option value="$PROJECT_DIR$/src/commit/BnavCommitMessageUtils.java" />
+        <option value="$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.form" />
       </list>
     </option>
   </component>
@@ -223,11 +237,6 @@
             <path>
               <item name="BaiduCommit" type="b2602c69:ProjectViewProjectNode" />
               <item name="BaiduCommit" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BaiduCommit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BaiduCommit" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -260,6 +269,13 @@
               <item name="commit" type="462c0819:PsiDirectoryNode" />
               <item name="icons" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BaiduCommit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiduCommit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="commit" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiduMapCommitPanel" type="e9f4de52:FormNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -271,7 +287,8 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537183322225" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537187477071" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25546604" />
@@ -354,14 +371,21 @@
       <option name="project" value="LOCAL" />
       <updated>1537156705855</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix五大获取当前分支的bug">
+      <created>1537183384508</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537183384508</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22771673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22771673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -370,17 +394,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.3265306" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40510204" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.497558" visible="true" weight="0.3265306" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993895" weight="0.40510204" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4612245" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50061053" side_tool="true" visible="true" weight="0.3265306" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993895" weight="0.4612245" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.502442" side_tool="true" visible="true" weight="0.3265306" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32959184" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32857144" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4993895" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.24969475" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.03907204" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -421,7 +445,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="基本功能提交，遗留问题：id与标题获取反了" />
     <MESSAGE value="完善UI，遗留问题：获取git分支失败" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善UI，遗留问题：获取git分支失败" />
+    <MESSAGE value="fix五大获取当前分支的bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix五大获取当前分支的bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -500,13 +525,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java</url>
-          <line>96</line>
+          <line>145</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java</url>
-          <line>100</line>
+          <line>149</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
@@ -517,14 +542,14 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/commit/BnavCommitMessage.java</url>
-          <line>16</line>
+          <url>file://$PROJECT_DIR$/src/commit/BnavCommitMessageUtils.java</url>
+          <line>19</line>
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/commit/BnavCommitMessage.java</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/src/commit/BnavCommitMessageUtils.java</url>
+          <line>20</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
@@ -553,28 +578,28 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java</url>
-          <line>77</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/commit/BnavCommitMessage.java</url>
-          <line>29</line>
+          <url>file://$PROJECT_DIR$/src/commit/BnavCommitMessageUtils.java</url>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/commit/BnavCommitMessage.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/src/commit/BnavCommitMessageUtils.java</url>
+          <line>30</line>
           <properties />
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/commit/BnavCommitMessageUtils.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/commit/BnavCommitMessageUtils.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -584,20 +609,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/commit/BaiduChangeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/project/DumbAware.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/vcs/changes/ui/CommitChangeListDialog.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -788,9 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/git4idea-142.1.jar!/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-422" />
@@ -822,29 +830,46 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/git4idea/lib/git4idea.jar!/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/commit/BnavCommitMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
         </state>
       </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/git4idea/lib/git4idea.jar!/git4idea/GitRemoteBranch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commit/BnavCommitMessageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="76" column="84" selection-start-line="76" selection-start-column="84" selection-end-line="76" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="97" column="51" selection-start-line="97" selection-start-column="51" selection-end-line="97" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
   <component name="masterDetails">

@@ -1,7 +1,6 @@
 package commit;
 
 import com.intellij.openapi.project.Project;
-import com.intellij.openapi.vcs.ui.CommitMessage;
 
 import javax.swing.*;
 import java.awt.event.ItemEvent;
@@ -10,22 +9,22 @@ import java.awt.event.ItemListener;
 public class BaiduMapCommitPanel {
     private JPanel main_panel;
     private JLabel branch_name;
+    private JLabel issue_ids;
     private JLabel type;
-    private JLabel icafe_ids;
     private JLabel subject;
     private JLabel reason;
     private JLabel change_detail;
     private JLabel qa_name;
+    private JLabel regression;
     private JTextField branch_name_filed;
     private JTextField type_filed;
     private JTextField subject_filed;
-    private JTextField icafe_ids_filed;
+    private JTextField issue_ids_filed;
     private JTextField reason_filed;
     private JTextField change_detail_filed;
     private JTextField qa_names_filed;
     private JComboBox type_combo_box;
     private JComboBox qa_name_combo_box;
-    private JLabel regression;
     private JTextField regression_text_filed;
     private static final String[] qaNmaes = {
             "none",
@@ -94,8 +93,8 @@ public class BaiduMapCommitPanel {
         return type_filed.getText();
     }
 
-    public String getIcafeIds() {
-        return icafe_ids_filed.getText();
+    public String getIssueIds() {
+        return issue_ids_filed.getText();
     }
 
     public String getSubject() {

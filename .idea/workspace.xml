@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf8f7477-78eb-47d0-b78c-664075e733ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_github_adedayo_intellij_sdk_git4idea_142_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_github_adedayo_intellij_sdk_hg4idea_142_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commit/BnavCommitMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaiduCommit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduCommit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BaiduCommit/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaiduCommit/META-INF/plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BaiduCommit/commit/BaiduCommitDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaiduCommit/commit/BaiduCommitDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BaiduCommit/commit/BaiduCreateCommitAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaiduCommit/commit/BaiduCreateCommitAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BaiduCommit/commit/icons/PluginIcons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaiduCommit/commit/icons/PluginIcons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BaiduCommit/icons/load.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/commit/BaiduCommitDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commit/BaiduCommitDialog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.form" afterDir="false" />
@@ -37,40 +34,40 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="17" />
-          <entry key="form" value="12" />
+          <entry key="class" value="18" />
+          <entry key="form" value="14" />
           <entry key="gitattributes" value="2" />
           <entry key="iml" value="5" />
-          <entry key="java" value="48" />
+          <entry key="java" value="51" />
           <entry key="png" value="1" />
-          <entry key="xml" value="38" />
+          <entry key="xml" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="17" />
-          <entry key="GUI_DESIGNER_FORM" value="12" />
+          <entry key="CLASS" value="18" />
+          <entry key="GUI_DESIGNER_FORM" value="14" />
           <entry key="IDEA_MODULE" value="5" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="48" />
+          <entry key="JAVA" value="51" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="XML" value="38" />
+          <entry key="XML" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="iml" value="7" />
-          <entry key="java" value="436" />
-          <entry key="txt" value="35" />
-          <entry key="xml" value="91" />
+          <entry key="java" value="481" />
+          <entry key="txt" value="58" />
+          <entry key="xml" value="168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="7" />
-          <entry key="JAVA" value="436" />
-          <entry key="PLAIN_TEXT" value="35" />
-          <entry key="XML" value="91" />
+          <entry key="JAVA" value="481" />
+          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="XML" value="168" />
         </counts>
       </usages-collector>
     </session>
@@ -87,36 +84,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/libraries/com_github_adedayo_intellij_sdk_git4idea_142_1.xml">
+        <entry file="file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="98">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/libraries/com_github_adedayo_intellij_sdk_hg4idea_142_1.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.form">
+          <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/commit/BnavCommitMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="435">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -126,10 +110,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BaiduCommit.iml">
+        <entry file="jar://$PROJECT_DIR$/lib/git4idea-142.1-sources.jar!/git4idea/branch/GitBranchUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="186">
+              <caret line="313" column="30" selection-start-line="313" selection-start-column="30" selection-end-line="313" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -137,20 +121,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
+            <state relative-caret-position="90">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitattributes">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -170,6 +144,7 @@
       <find>icafe_ids_filed</find>
       <find>BaiduCommitPanel</find>
       <find>git4idea.repo.GitRepositoryManager</find>
+      <find>issue_ids_filed</find>
     </findStrings>
     <replaceStrings>
       <replace>BaiduMapCommitPanel</replace>
@@ -181,17 +156,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/commit/icons/PluginIcons.java" />
         <option value="$PROJECT_DIR$/src/commit/BaiduCommitPanel.form" />
         <option value="$PROJECT_DIR$/src/commit/BaiduCommitPanelA.java" />
         <option value="$PROJECT_DIR$/src/commit/BaiduCommitPanel.java" />
         <option value="$PROJECT_DIR$/src/commit/BaiduCreateCommitAction.java" />
-        <option value="$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.form" />
-        <option value="$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java" />
         <option value="$PROJECT_DIR$/src/commit/BaiduCommitDialog.java" />
         <option value="$PROJECT_DIR$/BaiduCommit.iml" />
         <option value="$PROJECT_DIR$/src/commit/BnavCommitMessage.java" />
+        <option value="$PROJECT_DIR$/src/commit/icons/PluginIcons.java" />
         <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java" />
+        <option value="$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.form" />
       </list>
     </option>
   </component>
@@ -239,7 +214,20 @@
             <path>
               <item name="BaiduCommit" type="b2602c69:ProjectViewProjectNode" />
               <item name="BaiduCommit" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaiduCommit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiduCommit" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaiduCommit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiduCommit" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiduCommit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BaiduCommit" type="b2602c69:ProjectViewProjectNode" />
@@ -278,6 +266,13 @@
             </path>
             <path>
               <item name="BaiduCommit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiduCommit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="commit" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiduMapCommitPanel" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="BaiduCommit" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -293,8 +288,8 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537073765808" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537156654614" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25546604" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -361,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536978313187</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完善UI，遗留问题：获取git分支失败">
+      <created>1537073849513</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537073849514</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -382,9 +384,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32912844" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32857144" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -396,12 +398,39 @@
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32967034" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="基本功能提交，遗留问题：id与标题获取反了" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本功能提交，遗留问题：id与标题获取反了" />
+    <MESSAGE value="完善UI，遗留问题：获取git分支失败" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善UI，遗留问题：获取git分支失败" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -480,13 +509,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java</url>
-          <line>97</line>
+          <line>96</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java</url>
-          <line>101</line>
+          <line>100</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
@@ -534,13 +563,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java</url>
-          <line>79</line>
+          <line>78</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java</url>
-          <line>78</line>
+          <line>77</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
@@ -560,7 +589,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/commit/commit/BaiduChangeType.java" />
     <entry file="file://$PROJECT_DIR$/src/commit/commit/BaiduCommitPanel.java" />
     <entry file="file://$PROJECT_DIR$/src/commit/commit/BaiduCreateCommitAction.java" />
     <entry file="file://$PROJECT_DIR$/src/commit/commit/BaiduCommitDialog.java" />
@@ -631,9 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/javax/swing/text/JTextComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -693,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/git4idea-142.1.jar!/git4idea/branch/GitBranchUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/git4idea-142.1-sources.jar!/git4idea/branch/GitBranchUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -707,8 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/hg4idea_142_1.xml" />
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/git4idea_142_1.xml" />
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -729,10 +745,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/BaiduCommit/commit/BnavCommitMessage.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/BaiduCommit/commit/BaiduMapCommitPanel.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/commit/icons/PluginIcons.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaiduCommit.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/com_github_adedayo_intellij_sdk_hg4idea_142_1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/com_github_adedayo_intellij_sdk_git4idea_142_1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/hg4idea_142_1.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/git4idea_142_1.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/git4idea-142.1.jar!/git4idea/branch/GitBranchUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="255" selection-start-line="255" selection-end-line="255" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commit/BnavCommitMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -745,60 +824,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="98">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commit/BnavCommitMessage.java">
+    <entry file="jar://$PROJECT_DIR$/lib/git4idea-142.1-sources.jar!/git4idea/branch/GitBranchUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="186">
+          <caret line="313" column="30" selection-start-line="313" selection-start-column="30" selection-end-line="313" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BaiduCommit.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/BaiduCommit/commit/BnavCommitMessage.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/BaiduCommit/commit/BaiduMapCommitPanel.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/com_github_adedayo_intellij_sdk_git4idea_142_1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/com_github_adedayo_intellij_sdk_hg4idea_142_1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/commit/BaiduMapCommitPanel.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -840,7 +879,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>IntelliJ IDEA Community Edition IC-182.4323.46</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -876,7 +915,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>com.github.adedayo.intellij.sdk:hg4idea:142.1</last-edited>
+          <last-edited>com.github.adedayo.intellij.sdk:git4idea:142.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

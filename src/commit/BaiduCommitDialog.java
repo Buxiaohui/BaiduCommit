@@ -57,10 +57,10 @@ public class BaiduCommitDialog extends DialogWrapper {
     }
 
     private String getIds() {
-        if (isBlank(panel.getIcafeIds())) {
+        if (isBlank(panel.getIssueIds())) {
             return "";
         }
-        return String.format("%s", "[" + panel.getIcafeIds() + "]");
+        return String.format("%s", "[" + panel.getIssueIds() + "]");
     }
 
     private String getSubject() {

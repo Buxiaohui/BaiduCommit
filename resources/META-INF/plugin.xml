@@ -1,11 +1,11 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <id>com.baidu.bnav.android.com</id>
+  <name>BaiduNavCommit</name>
   <version>1.0</version>
   <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
+      just for baidu nav android team.<br>
       <em>most HTML tags may be used</em>
     ]]></description>
 

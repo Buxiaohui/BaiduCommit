@@ -9,7 +9,7 @@
     </content>
     <orderEntry type="jdk" jdkName="IntelliJ IDEA Community Edition IC-182.4323.46" jdkType="IDEA JDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="com.github.adedayo.intellij.sdk:git4idea:142.1" level="project" />
-    <orderEntry type="library" exported="" name="com.github.adedayo.intellij.sdk:hg4idea:142.1" level="project" />
+    <orderEntry type="library" name="com.github.adedayo.intellij.sdk:git4idea:142.1" level="project" />
+    <orderEntry type="library" name="com.github.adedayo.intellij.sdk:hg4idea:142.1" level="project" />
   </component>
 </module>

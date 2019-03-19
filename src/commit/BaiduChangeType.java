@@ -7,16 +7,17 @@ package commit;
  */
 public enum BaiduChangeType {
 
-    NONE("", "select nothing"),
-    FEAT("Features", "A new feature"),
-    BUG("Bug", "A bug fix"),
-    DOCS("Documentation", "Documentation only changes"),
-    STYLE("Styles", "Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)"),
-    REFACTOR("Code Refactoring", "A code change that neither fixes a bug nor adds a feature"),
-    PERF("Performance Improvements", "A code change that improves performance"),
-    TEST("Tests", "Adding missing tests or correcting existing tests"),
-    BUILD("Builds", "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)"),
-    REVERT("Reverts", "Reverts a previous commit");
+    NONE("", "什么也不想写"),
+    FEAT("Features", "需求"),
+    BUG("Bug", "修复bug"),
+    DOCS("Documentation", "仅添加文案"),
+    STYLE("Styles", "修改格式但不影响功能，如空格、换行等"),
+    REFACTOR("Code Refactoring", "重构"),
+    PERF("Performance Improvements", "优化"),
+    TEST("Tests", "增加或修改测试代码"),
+    BUILD("Builds", "修改编译相关，如gradle脚本"),
+    REVERT("Reverts", "回滚某个提交"),
+    OTHER("Others", "其他");
 
     public final String title;
     public final String description;

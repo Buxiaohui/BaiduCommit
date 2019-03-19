@@ -14,7 +14,7 @@
         </constraints>
         <properties>
           <labelFor value="9146e"/>
-          <text value="Branch Name"/>
+          <text value="分支名"/>
         </properties>
       </component>
       <component id="d4d7a" class="javax.swing.JLabel" binding="type">
@@ -22,7 +22,7 @@
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Type"/>
+          <text value="修改类型"/>
         </properties>
       </component>
       <component id="23f24" class="javax.swing.JLabel" binding="issue_ids">
@@ -30,7 +30,7 @@
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Issue id..."/>
+          <text value="icafe id..."/>
         </properties>
       </component>
       <component id="b542b" class="javax.swing.JLabel" binding="subject">
@@ -38,7 +38,7 @@
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Subject"/>
+          <text value="主题"/>
         </properties>
       </component>
       <component id="605d0" class="javax.swing.JLabel" binding="reason">
@@ -46,7 +46,7 @@
           <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Reason"/>
+          <text value="原因"/>
         </properties>
       </component>
       <component id="aef11" class="javax.swing.JLabel" binding="change_detail">
@@ -54,7 +54,7 @@
           <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Change Detail"/>
+          <text value="修改"/>
         </properties>
       </component>
       <component id="91aba" class="javax.swing.JLabel" binding="qa_name">
@@ -79,7 +79,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <toolTipText value="多个id请以英文逗号间隔"/>
+        </properties>
       </component>
       <component id="99de3" class="javax.swing.JTextField" binding="subject_filed">
         <constraints>
@@ -132,7 +134,7 @@
           <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Regression"/>
+          <text value="回归"/>
         </properties>
       </component>
       <component id="6dcb6" class="javax.swing.JTextField" binding="regression_text_filed">

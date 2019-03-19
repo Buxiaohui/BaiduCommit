@@ -2,8 +2,11 @@ package commit;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
+import com.intellij.openapi.actionSystem.PlatformDataKeys;
 import com.intellij.openapi.project.DumbAware;
+import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.DialogWrapper;
+import com.intellij.openapi.ui.Messages;
 import com.intellij.openapi.vcs.CommitMessageI;
 import com.intellij.openapi.vcs.VcsDataKeys;
 import com.intellij.openapi.vcs.ui.Refreshable;
@@ -17,6 +20,10 @@ public class BaiduCreateCommitAction extends AnAction implements DumbAware {
     @Override
     public void actionPerformed(AnActionEvent actionEvent) {
         final CommitMessageI commitPanel = getCommitPanel(actionEvent);
+        Project project = actionEvent.getData(PlatformDataKeys.PROJECT);
+        //Messages.showMessageDialog(project, "text", "print method", Messages.getInformationIcon());
+        System.out.println("奥术大师大所大所");
+
         if (commitPanel == null)
             return;
 

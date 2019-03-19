@@ -2,6 +2,7 @@ package commit;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.DialogWrapper;
+import org.apache.http.util.TextUtils;
 import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;
@@ -60,42 +61,70 @@ public class BaiduCommitDialog extends DialogWrapper {
         if (isBlank(panel.getIssueIds())) {
             return "";
         }
-        return String.format("%s", "[" + panel.getIssueIds() + "]");
+        String idStr = panel.getIssueIds();
+        if (TextUtils.isEmpty(idStr)) {
+            return "";
+        }
+        if (TextUtils.isEmpty(idStr.trim())) {
+            return "";
+        }
+        if (idStr.contains(" ")) {
+
+            idStr = idStr.replace(" ", "");
+        }
+        if (idStr.contains("，")) {
+            idStr = idStr.replace("，", ",");
+        }
+        idStr = idStr.trim();
+        String finalStr = "";
+        if (idStr.contains(",")) {
+            String[] ids = idStr.split(",");
+            if (ids != null && ids.length > 0) {
+                for (int i = 0; i < ids.length; i++) {
+                    if (!TextUtils.isEmpty(ids[i])) {
+                        finalStr += "[" + ids[i] + "]";
+                    }
+                }
+            }
+        } else {
+            finalStr = String.format("%s", "[" + panel.getIssueIds() + "]");
+        }
+        return finalStr;
     }
 
     private String getSubject() {
         if (isBlank(panel.getSubject())) {
             return "";
         }
-        return String.format("%s", panel.getSubject());
+        return String.format("%s", "[" + panel.getSubject() + "]");
     }
 
     private String getReason() {
         if (isBlank(panel.getReason())) {
             return "";
         }
-        return String.format("%n%s", "原因:" + panel.getReason());
+        return String.format("%n%s", "[" + "原因:" + panel.getReason() + "]");
     }
 
     private String getChangeDetail() {
         if (isBlank(panel.getChangeDetail())) {
             return "";
         }
-        return String.format("%n%s", "修改:" + panel.getChangeDetail());
+        return String.format("%n%s", "[" + "修改:" + panel.getChangeDetail() + "]");
     }
 
     private String getRegression() {
         if (isBlank(panel.getRegression())) {
             return "";
         }
-        return String.format("%n%s", "回归:" + panel.getRegression());
+        return String.format("%n%s", "[" + "回归:" + panel.getRegression() + "]");
     }
 
     private String getQaNames() {
         if (isBlank(panel.getQaNames())) {
             return "";
         }
-        return String.format("%n%s", "[QA:" + panel.getQaNames() + "]");
+        return String.format("%n%s", "[" + "QA:" + panel.getQaNames() + "]");
     }
 
     private static String breakLines(String input, int maxLineLength) {

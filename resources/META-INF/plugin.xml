@@ -1,15 +1,15 @@
 <idea-plugin>
     <id>com.baidu.bnav.android.com</id>
     <name>BaiduNavCommit</name>
-    <version>1.0</version>
-    <vendor email="moyinghui@yeah.net" url="https://github.com/Buxiaohui/BaiduCommit">MyGitHub</vendor>
+    <version>1.1</version>
+    <vendor email="buxiaohui@baidu.com" url="http://wiki.baidu.com/display/navshare/Git+commit+msg+template">wiki</vendor>
 
     <description><![CDATA[
       just for baidu nav android team.
     ]]></description>
 
     <change-notes><![CDATA[
-      get current branch name,and fill into text filed.
+      修改格式，增加中括号以便区分各个子项
     ]]>
     </change-notes>
 
